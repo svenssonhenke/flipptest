@@ -2,7 +2,7 @@ const path = require("path");
 const nodeExternals = require("webpack-node-externals");
 
 const webConfig = {
-  entry: { main: "./src/ClientApp.js" },
+  entry: { main: "./src/EntryPoints/ClientApp.js" },
   mode: "development",
   output: {
     filename: "main.js",
@@ -31,7 +31,7 @@ const webConfig = {
 
 const nodeConfig = {
   target: "node",
-  entry: "./src/ServerApp.js",
+  entry: "./src/EntryPoints/ServerApp.js",
   mode: "development",
   output: {
     libraryTarget: "commonjs2",

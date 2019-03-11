@@ -1,6 +1,6 @@
 ﻿import React from "react";
 import ReactDomServer from "react-dom/server";
-import App from "./App.js";
+import App from "../App.js";
 import { ServerStyleSheet, StyleSheetManager } from "styled-components";
 
 export function Run(callback) {

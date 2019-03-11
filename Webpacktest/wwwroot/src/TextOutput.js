@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
 import Context from "./Context";
 
-class ClassName extends Component {
+class TextOutput extends Component {
   render() {
     return (
       <Context.Consumer>
@@ -16,4 +15,4 @@ class ClassName extends Component {
     );
   }
 }
-export default ClassName;
+export default TextOutput;
